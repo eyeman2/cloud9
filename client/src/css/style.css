@@ -1,0 +1,172 @@
+/* navbar style */
+.brand-logo {
+    font-family: 'Shrikhand', cursive;
+    font-size: 24px;
+    text-shadow: 2px 2px #00acc1;
+    color: #b2ebf2;
+    letter-spacing: 1px;
+  }
+  
+  .nav-bar {
+    background-color: #00bcd4;
+  }
+  
+  .sidenav-trigger {
+    color: #FFF;
+  }
+  
+  #nav-mobile {
+    color: #00bcd4;
+  }
+  
+  #nav-links {
+    color: #00bcd4;
+  }
+  
+  /* text style */
+  h3 {
+    color: #00838f;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    color: #FFF;
+    font-weight: bold;
+  }
+  
+  h5 {
+    color: #00acc1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  h6 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 2rem;
+  }
+  
+  a {
+    font-weight: bold;
+    color: #FFF;
+  }
+  
+  a:hover {
+    font-weight: bold;
+    color: #b2ebf2;
+  }
+  
+  /* signup button */
+  #signup-button {
+    position: absolute;
+    width: 200px;
+    top: 290px;
+    left: 42%;
+    justify-content: center;
+    z-index: 9;
+  }
+  
+  /* carousel */
+  .carousel
+  .carousel-item {
+    margin-top: -90px !important;
+    width: 300px !important;
+  }
+  
+  /* recipe box */
+  div.recipe {
+    background-color: #FFF;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+  }
+  
+  /* restaurant box */
+  div.restaurant {
+    background-color: #FFF;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+  }
+  
+  /* scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #00bcd4; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b2ebf2; 
+  }
+  
+  /* parallax */
+  .parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+    .parallax-container .section {
+      width: 100%;
+    }
+  
+    /* recipe box */
+  div.recipe {
+    background-color: #b2ebf2;
+    width: 100%;
+    height: 780px;
+    overflow: scroll;
+  }
+  
+  /* restaurant box */
+  div.restaurant {
+    background-color: #FFF;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+  }
+  
+  div.recipeBox {
+    background-color: #e0f7fa
+  }
+  
+  /* mobile */
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: relative;
+      top: 0;
+    }
+    #index-banner .section {
+      top: 5%;
+    }
+  }
+  
+  @media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+  }
+  
+  .icon-block {
+    padding: 0 15px;
+  }
+  
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+  }
